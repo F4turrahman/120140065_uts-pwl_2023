@@ -1,14 +1,16 @@
-# Tugas Individu 4 Pemrograman Web Lanjut
+# UTS Pemrograman Web Lanjut (Sisi Frontend)
 
-Program ini dibangun menggunakan [Node.js](https://nodejs.org/en/docs) dan [React.js](https://react.dev/).
+Bagian Frontend ini dibangun menggunakan [React.js](https://react.dev/).
 
-## Cara Menjalankan Program
+### Langkah Awal Menjalankan Sisi Frontend
 
-Sebelum menjalankan program, pastikan terlebih dahulu sudah menginstall 'Node.js' dan 'Git' pada perangkat (Perlu diingat, Git dan Github tidaklah sama!)
+Install terlebih dahulu beberapa modul di sisi frontend dengan menjalankan perintah sebagai berikut:
 
-### Langkah Awal Menjalankan Program
+```
+npx create-react-app .
+```
 
-Program ini dijalankan pada mode development, jalankan program menggunakan perintah berikut:
+Kemudian jalankan program menggunakan perintah berikut:
 
 ```
 npm start
