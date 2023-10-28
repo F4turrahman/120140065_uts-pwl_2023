@@ -1,0 +1,25 @@
+GET http://localhost:3000/barang
+
+###
+GET http://localhost:3000/barang/1
+
+###
+POST http://localhost:3000/barang
+Content-Type: application/json
+
+{
+    "nama_barang": "Laptop",
+    "jumlah": "1"
+}
+
+###
+PATCH http://localhost:3000/barang/1
+Content-Type: application/json
+
+{
+    "nama_barang": "Mouse",
+    "jumlah": "2"
+}
+
+###
+DELETE http://localhost:3000/barang/2
